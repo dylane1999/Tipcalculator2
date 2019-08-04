@@ -3,4 +3,13 @@ function nathan(){
   
 }
 
+
 document.getElementById("tipbutton").onclick(nathan())
+
+function party(people, total){
+    let amountPerPerson = (total/people)
+    return amountPerPerson;
+}
+
+
+
