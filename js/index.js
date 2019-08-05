@@ -1,7 +1,5 @@
-document.addEventListener("DOMContentLoaded", help);
+document.addEventListener("DOMContentLoaded");
 
-function help() {
-  console.log("plzworkk");
 }
 
 function main() {

@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Tip Calculator</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css"
-      integrity="sha256-QVBN0oT74UhpCtEo4Ko+k3sNo+ykJFBBtGduw13V9vw="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/index.css" />
-  </head>
-  <body name="TipForm">
-    <a id="tipbutton" onclick="main()" class="ui basic blue button"
-      >Tip & Split Calculator
-      <br />
-      <br />
-    </a>
-
-    <div class="ui input"> 
-      <input id="party" type="number" placeholder="Number in Party" />
-    </div>
-    <div class="ui input">
-      <input id="bill" type="number" placeholder="Bill Amount" />
-    </div>
-    <div class="ui input">
-      <input id="tip" type="number" placeholder="Tip %" />
-    </div>
-    <br>
-    <br>
-    <div class="ui input"> 
-      <input id="tipOutput" type="text" placeholder="Tip Amount" />
-    </div>
-    <div class="ui input">
-      <input id="totalOutput" type="text" placeholder="Bill Total" />
-    </div>
-    <div class="ui input">
-      <input id="partyOutput" type="text" placeholder="Total per Person" />
-    </div>
-  </body>
-  <script src="js/index.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tip Calculator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css"
+  integrity="sha256-QVBN0oT74UhpCtEo4Ko+k3sNo+ykJFBBtGduw13V9vw=" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+  
+<div id="grid">
+  <div id="button" onclick="main()" class="ui massive  blue button">Tip & Split Calculator</div>
+</div>
+<br>
+<div id="grid1">
+  <div id="one" class="ui labeled input">
+    <label for="party" class="ui label">#</label>
+    <input type="number" placeholder="party size" id="party">
+  </div>
+  <div id="two" class="ui labeled input">
+    <label for="amount" class="ui label">$</label>
+    <input type="number" placeholder="Check Total" id="bill">
+  </div>
+  <div id="three" class="ui labeled input">
+    <label for="percent" class="ui label">%</label>
+    <input type="number" placeholder="tip" id="tip">
+  </div>
+</div>
+<div id="grid2">
+   <div id="one" class="ui labeled input">
+    <label for="party" class="ui label">#</label>
+    <input type="number" placeholder="Total per Person" id="partyOutput">
+  </div>
+  <div id="two" class="ui labeled input">
+    <label for="amount" class="ui label">$</label>
+    <input type="number" placeholder="Bill Total" id="totalOutput">
+  </div>
+  <div id="three" class="ui labeled input">
+    <label for="percent" class="ui label">%</label>
+    <input type="number" placeholder="Tip Amount" id="tipOutput">
+  </div>
+</div>
+</body>
+<script src="js/index.js"></script>
 </html>
