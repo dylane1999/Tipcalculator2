@@ -1,6 +1,7 @@
 body{
   position: relative;
   margin: 1in;  
+  background-color: whitesmoke;
 }
 
 #button{
@@ -34,6 +35,39 @@ body{
 }
 
 #three{
+  position: relative;
+  padding: 5px;
+}
+
+#four{
+  position: relative;
+  padding: 5px;
+  text-align: center;
+}
+
+#five{
+  position: relative;
+  padding: 5px;
+  text-align: center;
+}
+
+#six{
+  position: relative;
+  padding: 5px;
+  text-align: center;
+}
+
+#partyOutput{
+  position: relative;
+  padding: 5px;
+}
+
+#totalOutput{
+  position: relative;
+  padding: 5px;
+}
+
+#tipOutput{
   position: relative;
   padding: 5px;
 }

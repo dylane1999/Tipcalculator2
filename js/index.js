@@ -1,7 +1,3 @@
-document.addEventListener("DOMContentLoaded");
-
-}
-
 function main() {
   let bill = document.getElementById("bill").value;
   let tipAsPercent = document.getElementById("tip").value;
