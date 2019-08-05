@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tip Calculator</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css"
-  integrity="sha256-QVBN0oT74UhpCtEo4Ko+k3sNo+ykJFBBtGduw13V9vw=" crossorigin="anonymous" />
-<link rel="stylesheet" href="css/index.css"/>
-</head>
-<body>
-  
-  <a id="tipbutton" onclick="main()" class="ui basic blue button">test me
-    <br>
-    <br>
-  </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tip Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css"
+      integrity="sha256-QVBN0oT74UhpCtEo4Ko+k3sNo+ykJFBBtGduw13V9vw="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body name="TipForm">
+    <a id="tipbutton" onclick="main()" class="ui basic blue button"
+      >Tip & Split Calculator
+      <br />
+      <br />
+    </a>
 
-  <div  class="ui input">
-    <input id="party" type="number" placeholder="Party amount">
-  </div>
-  <div class="ui input">
-    <input id="bill" type="number"  placeholder="bill total">
-  </div>
-  <div class="ui input">
-    <input id="tip" type="number"  placeholder="tip %">
-  </div>
-</body>
-<script src="js/index.js"></script>
+    <div class="ui input"> 
+      <input id="party" type="number" placeholder="Number in Party" />
+    </div>
+    <div class="ui input">
+      <input id="bill" type="number" placeholder="Bill Amount" />
+    </div>
+    <div class="ui input">
+      <input id="tip" type="number" placeholder="Tip %" />
+    </div>
+    <br>
+    <br>
+    <div class="ui input"> 
+      <input id="tipOutput" type="text" placeholder="Tip Amount" />
+    </div>
+    <div class="ui input">
+      <input id="totalOutput" type="text" placeholder="Bill Total" />
+    </div>
+    <div class="ui input">
+      <input id="partyOutput" type="text" placeholder="Total per Person" />
+    </div>
+  </body>
+  <script src="js/index.js"></script>
 </html>
-
-
