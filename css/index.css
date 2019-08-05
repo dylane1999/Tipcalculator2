@@ -1,14 +1,19 @@
 body{
   position: relative;
-  margin: 1in;
-  
+  margin: 1in;  
 }
+
 #button{
-position: relative;
-text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 #grid1{
+  position: relative;
+  text-align: center;
+}
+
+#grid2{
   position: relative;
   text-align: center;
 }
@@ -19,15 +24,16 @@ text-align: center;
 }
 
 #one{
-position: relative;
-padding: 5px;
+  position: relative;
+  padding: 5px;
 }
-#two{
-position: relative;
-padding: 5px;
-}
-#three{
-position: relative;
-padding: 5px;
 
+#two{
+  position: relative;
+  padding: 5px;
+}
+
+#three{
+  position: relative;
+  padding: 5px;
 }

@@ -11,7 +11,7 @@
 </head>
 <body>
   
-  <div id="grid">
+<div id="grid">
   <div id="button" onclick="main()" class="ui massive  blue button">Tip & Split Calculator</div>
 </div>
 <br>
@@ -24,14 +24,25 @@
     <label for="amount" class="ui label">$</label>
     <input type="number" placeholder="Check Total" id="bill">
   </div>
-  
   <div id="three" class="ui labeled input">
     <label for="percent" class="ui label">%</label>
     <input type="number" placeholder="tip" id="tip">
   </div>
 </div>
+<div id="grid2">
+   <div id="one" class="ui labeled input">
+    <label for="party" class="ui label">#</label>
+    <input type="number" placeholder="Total per Person" id="partyOutput">
+  </div>
+  <div id="two" class="ui labeled input">
+    <label for="amount" class="ui label">$</label>
+    <input type="number" placeholder="Bill Total" id="totalOutput">
+  </div>
+  <div id="three" class="ui labeled input">
+    <label for="percent" class="ui label">%</label>
+    <input type="number" placeholder="Tip Amount" id="tipOutput">
+  </div>
+</div>
 </body>
 <script src="js/index.js"></script>
 </html>
-
-
