@@ -11,20 +11,25 @@
 </head>
 <body>
   
-  <a id="tipbutton" onclick="main()" class="ui basic blue button">test me
-    <br>
-    <br>
-  </a>
-
-  <div  class="ui input">
-    <input id="party" type="number" placeholder="Party amount">
+  <div id="grid">
+  <div id="button" onclick="main()" class="ui massive  blue button">Tip & Split Calculator</div>
+</div>
+<br>
+<div id="grid1">
+  <div id="one" class="ui labeled input">
+    <label for="party" class="ui label">#</label>
+    <input type="number" placeholder="party size" id="party">
   </div>
-  <div class="ui input">
-    <input id="bill" type="number"  placeholder="bill total">
+  <div id="two" class="ui labeled input">
+    <label for="amount" class="ui label">$</label>
+    <input type="number" placeholder="Check Total" id="bill">
   </div>
-  <div class="ui input">
-    <input id="tip" type="number"  placeholder="tip %">
+  
+  <div id="three" class="ui labeled input">
+    <label for="percent" class="ui label">%</label>
+    <input type="number" placeholder="tip" id="tip">
   </div>
+</div>
 </body>
 <script src="js/index.js"></script>
 </html>

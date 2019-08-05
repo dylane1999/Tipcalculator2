@@ -1,0 +1,33 @@
+body{
+  position: relative;
+  margin: 1in;
+  
+}
+#button{
+position: relative;
+text-align: center;
+}
+
+#grid1{
+  position: relative;
+  text-align: center;
+}
+
+#grid{
+  position: relative;
+  text-align: center;
+}
+
+#one{
+position: relative;
+padding: 5px;
+}
+#two{
+position: relative;
+padding: 5px;
+}
+#three{
+position: relative;
+padding: 5px;
+
+}
